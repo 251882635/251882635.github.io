@@ -1,0 +1,144 @@
+/*reset*/
+body, h1, h2, h3, h4, h5, h6, p, dl, dd, ul, ol , input, textarea, th, td, select, form{margin:0; padding:0;}   
+em{font-size: normal;}
+li{list-style:none;}
+a{text-decoration: none;}
+img{vertical-align: top;}
+body{font-family: "Microsoft YaHei",Helvetica;padding-top: 70px;}
+html{-webkit-text-size-adjust:none;}
+div,input,textarea{-webkit-box-sizing: border-box; box-sizing: border-box;}
+a{color:#fff;cursor: pointer;}
+input:focus{border:none;outline:none}
+input,textarea{border:none;font-size:16px;color:#fff;background: transparent;}
+::-webkit-input-placeholder {font-size: 16px; color:#8d8d8d;}
+
+/*public*/
+.fl{float: left;}
+.fr{float: right;}
+.clear{zoom:1;}/*IE*/
+.clear:after{content: "";display: block;clear: both;}
+
+/*导航栏*/
+.nav_wrap{
+	width: 100%;
+	height: 70px;
+	color: #fff;	
+	position: fixed;
+	top: 0;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	transform:translateX(-50%);
+	z-index: 999;
+	background: rgba(38,38,38,1);
+}
+.nav{
+	width: 1100px;
+	height: 70px;
+	color: #fff;	
+	margin: 0 auto;
+	background: rgba(38,38,38,1);
+	position: relative;
+	font-family: "Microsoft YaHei";
+}
+.nav_logo{
+	padding-top: 10px;
+}
+.nav_ul{
+	margin-left: 266px;
+	overflow: hidden;	
+}
+.oDiv{
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	top: 70px;
+	right: 278px;
+	background: #000;
+	font-size: 14px;
+	display: none;
+	z-index: 999;
+}
+.oDiv p{
+	color: #fff;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+}
+.oDiv p:hover{
+	color: 	#41b1ff;
+	cursor: pointer;
+}
+
+.nav li{
+	margin-left: 44px;
+	float: left;
+	cursor: pointer;	
+	font-size: 16px;
+	height: 70px;
+	line-height: 70px;
+}
+.nav li:hover{
+	color: 	#41b1ff;
+}
+.join-btn{
+	width: 120px;
+	height: 70px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 70px;
+	background: #d11e61;
+	color: #fff;
+	font-family: "方正兰亭黑简体","微软雅黑",Helvetica;
+}
+.nav_wrap a{
+	color: #fff;
+}
+/*导航栏*/
+
+/*页脚*/
+.footer a{
+	color: #fff;
+}
+.footer{
+	width: 100%;
+	background: #262626;
+	margin-top: 66px ;
+	color: #fff;
+}
+.footer_content{
+	width: 1100px;
+	margin: 0 auto;
+}
+.footer_logo{
+	margin: 57px 62px 0 0;
+}
+
+.footer_address{
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+.footer_content_left{
+	margin: 60px 0 63px;
+}
+
+.gz_common{
+	margin-bottom: 10px;
+}
+.icp{
+	text-align: right;
+	font-size: 14px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.icp p{
+	margin-bottom: 12px;
+}
+.ft_co{
+	font-size: 12px;
+	color: #999;
+}
+.gz_p{
+	font-size: 12px;
+	color: #999;
+	text-align: right;
+}

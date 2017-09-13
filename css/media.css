@@ -1,0 +1,101 @@
+.positionCenter{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+@media screen and (max-width: 1366px){
+	.positionCenter{
+		-webkit-transform:translate(-50%,-50%) scale(0.85);
+		transform:translate(-50%,-50%) scale(0.85);
+		-webkit-transform-origin:50% top;
+		transform-origin:50% top;
+		/*zoom:0.85;*/
+	}
+	.scale{
+		-webkit-transform:  scale(0.8);
+		transform:  scale(0.8);
+		-webkit-transform-origin:50% top;
+		transform-origin:50% top;
+	}
+	.bg1_watchBtn{
+		bottom: 10px;
+	}
+	.title{
+		font-size: 36px;
+		margin-top: 35px;
+	}
+	/*第二屏*/
+	.guestDiv{
+		margin: 30px auto 0;
+	}
+	.guestDiv li {
+		margin-top: 0;
+	}
+
+	/*第三屏*/
+	.bg3Div{
+		margin-top: 20px;
+	}
+	.location{
+		margin:40px auto 0;
+	}
+	.yearDiv {
+		margin: 30px auto 0;
+	}	
+
+	.media_p{		
+		margin-bottom: 30px;
+	}
+	.submit-btn2{
+		margin-top: 10px;
+	}
+	.mainDiv{
+		margin: 50px auto 0;
+	}
+
+	.media_p{
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	._inp{
+		margin-bottom: 14px;
+		width: 450px;
+		height: 36px;
+	}
+	._tex{
+		width: 450px;
+		height: 115px;
+	}
+	._inp_span,.inp_input{
+		height: 36px;
+		line-height: 36px;
+	}
+	.submit-btn1,.submit-btn3{
+		margin-top: 15px;
+	}
+	.submit-btn2,.submit-btn4{
+		margin-top: 40px;
+	}
+	.mainDiv{
+		width: 685px;
+	}
+	.main{
+		width: 320px;
+		height: 166px;
+	}
+	.main p{
+		line-height: 166px;
+	}
+	.introduce{
+		margin-top:15px;
+	}
+	.bottom{
+		margin: 30px auto 0;
+	}
+	.introduce{
+		margin-bottom: 30px;
+	}
+
+}

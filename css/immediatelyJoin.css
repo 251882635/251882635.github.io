@@ -1,0 +1,191 @@
+
+/*layout*/
+html{
+	background: #000;
+}
+body{
+	overflow-x: hidden;
+	position: relative;
+	color: #fff;	
+	padding-top: 70px;
+}
+/*导航栏*/
+
+.wrap{
+	width: 1100px;
+	margin: 0 auto;
+	background: url(../image/immeBg.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.media_p{
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.media_input{
+	width: 1100px;
+	margin: 84px auto 0;
+	text-align: center;
+	position: relative;
+}
+._inp{
+	width: 556px;
+	height: 54px;
+	border: 1px solid #fff;  
+	margin-bottom: 26px;
+	margin-left: 280px;
+}
+._inp:hover,._tex:hover{
+	border: 1px solid #1084e6;
+}
+._inp_span{
+	font-size: 16px;
+	height: 54px;
+	line-height: 54px;
+	margin-left: 12px;
+}
+.inp_input{
+	height: 54px;
+	line-height: 54px;
+	margin-left: 54px;
+}
+
+input:focus{
+	border:none;outline:none
+}
+
+input,textarea{
+	border:none;font-size:16px;color:#fff;background: transparent;
+}
+
+::-webkit-input-placeholder {
+	font-size: 16px; color:#8d8d8d;
+}
+
+.radioDiv{
+	width: 1100px;
+	margin-left: 280px;
+}
+.radioDiv_p{
+	width: 1100px;
+	font-size: 16px;
+	margin: 25px 0;
+}
+form{
+	font-size: 16px;
+}
+.submit-btn{
+	font-size: 28px;
+	text-align: center;
+	width: 240px;
+	height: 60px;
+	line-height: 60px;
+	background: #fff;
+	cursor: pointer;
+	margin-left: 60px;
+	margin-top: 30px;
+	color: #000;
+	margin: 40px auto 0;
+}
+
+.otherWay{
+	width: 1100px;
+	margin: 96px auto 66px;	
+}
+.otherP{
+	font-size: 28px;
+
+}
+.way1{	
+	margin: 34px 0 16px;
+	font-size: 20px;
+}
+.way2{
+	font-size: 20px;
+}
+
+.fileDiv{
+	font-size: 16px;
+	margin-left: 280px;
+}
+.fileDiv_span{
+	margin-top: 12px;
+}
+.file{
+	width: 138px;
+	height: 40px;
+	border: 1px solid #fff;
+	margin-left: 38px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.support-pic{
+	font-size: 16px;
+	margin-left: 280px;
+	margin-top: 28px;
+}
+
+._hidden{
+	display: none;
+}
+
+.radioDiv_p{
+	font-size: 16px;
+	margin: 25px 0;
+}
+form{
+	font-size: 16px;
+}
+._tex{
+	width: 556px;
+	height: 140px;
+	margin-left: 280px;
+	border: 1px solid #fff;
+	padding: 15px 15px;
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+
+label input{
+	margin-top: 5px;
+}
+
+/*关于我们*/
+.p_link{
+	font-size: 24px;
+	margin: 50px 0 60px;
+}
+.p_link a{
+	color: #df441f;
+}
+.p_link a:hover{
+	text-decoration: underline;
+}
+.slon_intro1,.slon_intro2{
+	font-size: 18px;
+	line-height: 1.7;
+}
+.slon_intro2{
+	margin: 60px 0 80px;
+}
+.slon_intro3{
+	width: 1100px;
+	height: 324px;
+	background: -webkit-linear-gradient(top, rgba(22,22,22,0.7), rgba(105,105,105,0.7),rgba(22,22,22,0.7));
+	padding: 72px 94px 0 48px;
+	margin-bottom: 70px;
+
+}
+.intro_p{
+	font-size: 28px;
+	font-family: "方正正准黑简体";
+	margin-bottom: 36px;
+}
+.intro_p2{
+	font-size: 18px;
+	margin-bottom: 22px;
+}
+

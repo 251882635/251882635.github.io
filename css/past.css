@@ -1,0 +1,49 @@
+/*layout*/
+body{
+	width: 100%;
+	background: #000;
+	color: #fff;
+}
+.wrap{
+	width: 1100px;
+	margin: 0 auto;
+}
+.banner{
+	width: 1100px;
+	height: 408px;
+	overflow: hidden;
+}
+.banner_img{
+	width: 1100px;
+	height: 408px;
+}
+.year{
+	width: 150px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	background: #ff6600;
+	font-size: 30px;
+	font-family: "时尚中黑简体";
+	margin: 30px 0 40px;
+}
+
+.yearbox{
+	width: 350px;
+	height: 312px;
+	border: 1px solid #fff;
+	padding:12px;
+	margin-right: 25px;
+
+
+}
+.yearBox_p{
+	font:18px "方正兰亭粗黑简体" ;
+	margin: 14px 0 40px;
+
+}
+.yearbox:hover{
+	-webkit-box-shadow: 0 0 40px #0037d3,0 0 40px #0037d3 inset;
+	-moz-box-shadow: 0 0 40px #0037d3,0 0 40px #0037d3 inset;
+	box-shadow: 0 0 40px #0037d3,0 0 40px #0037d3 inset;
+}
